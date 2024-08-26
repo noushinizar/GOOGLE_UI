@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(32, 32, 36);
+
+}
+.nav{
+    height: 8%;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.about{
+    height: 100%;
+    width: 10%;
+    /* background-color: blue; */
+    display: flex;
+   align-items: center;
+   justify-content: space-around;
+   
+}
+.img1{
+    height: 20px;
+    width: 20px;
+}
+.img2{
+    height: 35px;
+    width: 35px;
+}
+.img3{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%; 
+}
+.img4{
+    height: 150px;
+    width: 350px;
+}
+.gmail{
+    height: 100%;
+    width: 18%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+span{
+    font-size: 16px;
+    color: white;
+   
+}
+.content{
+ height: 560px;
+ width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: start;
+ gap: 20px;
+ flex-direction: column;
+}
+.search:hover{
+    background-color: rgb(50, 47, 47);
+}
+
+h1{
+    font-size: 100px;
+    color: white;
+}
+.search{
+    height: 50px;
+    width: 600px;
+    border: 1px solid rgb(112, 106, 106);
+    border-radius: 40px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+.sicon{
+ height:100% ;
+ width: 10%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.icons{
+    height:100% ;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+}
+input{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    height: 100%;
+    width: 430px;
+    color: white;
+}
+.text{
+    height: 50px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.txt1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+   height: 70%;
+   width: 30%;
+   background-color: rgb(52, 51, 51);
+   box-shadow: 1px 1px 2px rgb(63, 62, 62);
+   color: white;
+}
+span:hover{
+    text-decoration: underline;
+}
+.lang1{
+    color: rgb(118, 172, 211);
+    font-size: 15px;
+}
+h4{
+    color: white;
+    font-weight: lighter;
+}
+.footer{
+  height: 15%;
+  width: 100%;
+  background-color: rgb(24, 24, 24);
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: flex-end;
+  
+}
+.bot1{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* padding-left: 40px; */
+}
+.bot2{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    border-top: 1px solid rgb(86, 86, 86);
+    
+}
+.b1{
+    height: 100%;
+    width: 25%;  
+    display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+.b2{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media (max-width: 768px) {
+   
+    .nav {
+      height: 10%;
+      width: 100%;
+    }
+    .about {
+      width: 20%;
+    }
+    .gmail {
+      width: 40%;
+    }
+    .content {
+      gap: 10px;
+      width: 100%;
+    }
+    .search {
+      width: 80%;
+   
+    }
+    .text {
+      width: 90%;
+    }
+    .txt1 {
+      width: 50%;
+    }
+ 
+
+    .bot2 {
+        /* flex-direction: column;
+        align-items: center; */
+        gap: 0.5rem;
+    }
+
+    .b1, .b2 {
+        width: 100%;
+        /* justify-content: center; */
+        /* gap: 10px; */
+    }
+  }
+  
+  @media (max-width: 425px) {
+    .main{
+        height: 100vh;
+        width: 100vw;
+    }
+    .nav {
+      height: 25%;
+    }
+    .about {
+      width: 30%;
+    }
+    .gmail {
+      width: 60%;
+    }
+    .content {
+      gap: 5px;
+    }
+    .search {
+        width: 300px;
+        gap: 1px;
+    }
+    .text {
+      width: 80%;
+    }
+    .txt1 {
+      width: 70%;
+    }
+    .footer {
+      height: 20%;
+    }
+    .bot2 {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .b1, .b2 {
+        width: 100%;
+        justify-content: center;
+        gap: 10px;
+    }
+  }
+  
+  
